@@ -1,1 +1,20 @@
-gcc -g to compile a program and include debugging information start - begin exexuting your program list - examine your source code from within the debugger step - execute the next line of your program next - execute the next line of your program, but if it's a subroutine call, treat the entire subroutine as a single line print - examine the contents of a variable x - examine memory directly watch, rwatch - set a watch for when a variable is written or read: return to the debugger once this happens break - set a breakpoint: return to the debugger when this line of code is about to be executed info watch - show info on watchpoints info break - show info on breakpoints delete # - delete watchpoint or breakpoint # cont - continue from a breakpoint, watchpoint, step, next, etc.; basically begin running your program from where it left off set var name=value set the value of variable name to value bt - show the call frames for your program frame # - set the current frame to #. Variables you reference etc. will be those within that context. quit - leave the debugger
+gcc -g to compile a program and include debugging information
+start - begin exexuting your program list
+- examine your source code from within the debugger step
+- execute the next line of your program next
+- execute the next line of your program,
+but if it's a subroutine call, 
+treat the entire subroutine as a single line print 
+- examine the contents of a variable x 
+- examine memory directly watch, rwatch 
+- set a watch for when a variable is written or 
+read: return to the debugger once this happens break
+- set a breakpoint: return to the debugger when this line of code is about to be executed info watch 
+- show info on watchpoints info break 
+- show info on breakpoints delete # 
+- delete watchpoint or breakpoint # cont 
+- continue from a breakpoint, watchpoint, step, next, etc.;
+basically begin running your program from where it left off set var name=value set the value of variable name to value bt 
+- show the call frames for your program frame # 
+- set the current frame to #. Variables you reference etc. will be those within that context. quit 
+- leave the debugger
