@@ -1,4 +1,4 @@
-//echo client ./echoclient 127.0.0.1 10000
+//echo client ./echoclient 127.0.0.1  v10000
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h>

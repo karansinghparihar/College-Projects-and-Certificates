@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+FILE *fp;
+char c;
+
+
+fp=fopen("getchar.txt","w");
+while(c=getchar()!=EOF)
+{
+fprintf(fp,"%c",c);
+}
+fclose(fp);
+while(
+printf("%c",c); 
+}
+
